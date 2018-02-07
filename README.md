@@ -8,6 +8,7 @@ Author:  Steve Campbell, @lpha3ch0
 
 This script was designed to use the Chrome browser and webdriver.
 If you want to use a different browser, you'll need to download/install the appropriate driver for your browser of choice and modify line 5.
+
 Download browser drivers from http://watir.com/guides/drivers/
 
 To change from Chrome driver to another, modify line 5.
