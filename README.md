@@ -1,6 +1,6 @@
 # Cobbler
 
-Purpose: Cobbler will scrape Data.com Connect and LinkedIn for names and output usernames in the format of your choice for use in password spray attacks.
+Purpose: Cobbler will scrape Data.com Connect and LinkedIn for company employees and output usernames in the format of your choice for use in password spray attacks.
 
 Author:  Steve Campbell, @lpha3ch0
 
