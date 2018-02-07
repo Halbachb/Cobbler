@@ -6,6 +6,8 @@ Author:  Steve Campbell, @lpha3ch0
 
 ### Prerequisites
 
+Obviously you'll need LinkedIn and/or Data.com Connect (https://connect.data.com) accounts. If you don't have one or the other, you can choose to disable either one during runtime.
+
 This script was designed to use the Chrome browser and webdriver.
 If you want to use a different browser, you'll need to download/install the appropriate driver for your browser of choice and modify line 5.
 
