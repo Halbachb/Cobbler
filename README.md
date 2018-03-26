@@ -9,11 +9,11 @@ Author:  Steve Campbell, @lpha3ch0
 Obviously you'll need LinkedIn and/or Data.com Connect (https://connect.data.com) accounts. If you don't have one or the other, you can choose to disable either one during runtime.
 
 This script was designed to use the Chrome browser and webdriver.
-If you want to use a different browser, you'll need to modify line 5.
+If you want to use a different browser, you'll need to modify lines 5 and 30.
 
 Download and install browser drivers from http://watir.com/guides/drivers/
 
-To change from Chrome driver to another, modify line 5.
+To change from Chrome driver to another, modify lines 5 and 30.
 Example to change from Chrome to Firefox:
 
 From:
