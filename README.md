@@ -46,6 +46,8 @@ Easy-Peasy!
 
 ![Example Usage](https://github.com/MooseDojo/Cobbler/blob/master/Monosnap%202018-04-11%2017-54-28(1).jpg)
 
+After answering the prompts, you'll see the browser open and navigate the sites. When it's finished you can find the list of usernames in the output file.
+
 ### ToDo:
 
 This project was done in a day while learning how to scrape websites using Ruby and Watir. The code is crude and not object-oriented. Future revisions will make use of objects and will clean up the code.
