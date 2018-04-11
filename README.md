@@ -44,6 +44,7 @@ ruby Cobbler.rb
 ```
 Easy-Peasy!
 
+![Example Usage](https://github.com/MooseDojo/Cobbler/blob/master/Monosnap%202018-04-11%2017-54-28(1).jpg)
 
 ### ToDo:
 
