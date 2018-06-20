@@ -8,10 +8,10 @@ def linkedin(user, pass, company)
   browser.text_field(:id, 'login-email').set(user)
   browser.text_field(:id, 'login-password').set(pass)
   browser.button(:text, "Sign in").click
-  sleep(5)
+  sleep(rand(5..10))
   base_url = "https://www.linkedin.com/search/results/people/?keywords=" + company
   browser.goto base_url
-  sleep(3)
+  sleep(rand(5..10))
   document = Nokogiri::HTML(browser.html)
 
   counter = 1
@@ -22,7 +22,7 @@ def linkedin(user, pass, company)
     break if document.css("[class='search-no-results__container']").length > 0
     counter += 1
     browser.goto base_url + "&page=" + counter.to_s
-    sleep(3)
+    sleep(rand(5..10))
   end
 end
 
@@ -35,7 +35,7 @@ def data_dot_com(user, pass, company)
   browser.button(:text, "Login").click
   browser.text_field(:id, 'homepageSBS').set(company)
   browser.send_keys :enter
-  sleep(3)
+  sleep(rand(5..10))
   document = Nokogiri::HTML(browser.html)
 
   company_links = document.css("[class='break-word companyName']")
@@ -48,7 +48,7 @@ def data_dot_com(user, pass, company)
   browser.goto next_page
   browser.wait
   browser.link(:text =>"see all").wait_until_present.click
-  sleep(3)
+  sleep(rand(5..10))
 
   loop do
     document = Nokogiri::HTML(browser.html)
@@ -58,7 +58,7 @@ def data_dot_com(user, pass, company)
     end
     break if document.css("[class='table-navigation-button-next table-navigation-image table-navigation-next-image-active']").length == 0
     browser.image(:id, 'next').click
-    sleep(3)
+    sleep(rand(5..10))
   end
 end
 
